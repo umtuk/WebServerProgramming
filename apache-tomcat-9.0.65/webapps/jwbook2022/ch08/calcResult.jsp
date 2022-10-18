@@ -9,6 +9,6 @@
 <body>
 <h2>계산 결과-컨트롤러</h2>
 <hr>
-결과: ${result}
+결과: ${result} : <%= request.getParameter("result") %>
 </body>
 </html>
