@@ -53,3 +53,14 @@
 0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:15:30 +0900] "POST /ch07/calc.jsp HTTP/1.1" 500 2912
 0:0:0:0:0:0:0:1 - tomcat [11/Oct/2022:16:16:15 +0900] "POST /manager/html/reload?path=/ch07&org.apache.catalina.filters.CSRF_NONCE=3F53B8F1FCE455A0147A3366651DE6DC HTTP/1.1" 200 24336
 0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:16:19 +0900] "POST /ch07/calc.jsp HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:18:29 +0900] "POST /ch07/calc.jsp HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:18:56 +0900] "GET /ch07/calc.jsp?op=%2B&n1=10&n2=30 HTTP/1.1" 200 184
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:19:56 +0900] "GET /ch07/calc.jsp?n1=3&n2=5&op=%2B HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:20:16 +0900] "POST /ch07/calc.jsp HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - tomcat [11/Oct/2022:16:21:54 +0900] "POST /manager/html/findleaks?org.apache.catalina.filters.CSRF_NONCE=81694DD35812EB89C724A92BA62F6D5F HTTP/1.1" 403 3529
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:52:32 +0900] "GET /ch07/jstlExam.jsp HTTP/1.1" 500 2845
+0:0:0:0:0:0:0:1 - tomcat [11/Oct/2022:16:52:37 +0900] "POST /manager/html/reload?path=/ch07&org.apache.catalina.filters.CSRF_NONCE=B00205BB54F3C045F642DE0D428D9BCA HTTP/1.1" 403 3529
+0:0:0:0:0:0:0:1 - tomcat [11/Oct/2022:16:52:43 +0900] "GET /manager/html HTTP/1.1" 200 24248
+0:0:0:0:0:0:0:1 - tomcat [11/Oct/2022:16:52:46 +0900] "POST /manager/html/reload?path=/ch07&org.apache.catalina.filters.CSRF_NONCE=D822C2390A273204F640462A24794686 HTTP/1.1" 200 24336
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:52:48 +0900] "GET /ch07/jstlExam.jsp HTTP/1.1" 200 973
+0:0:0:0:0:0:0:1 - - [11/Oct/2022:16:53:33 +0900] "GET /ch07/jstlExam.jsp HTTP/1.1" 200 973
